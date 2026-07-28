@@ -167,7 +167,7 @@ ul {
 .wrapper .twitter:hover span,
 .wrapper .twitter:hover .tooltip,
 .wrapper .twitter:hover .tooltip::before {
-	background: #46C1F6;
+	background: #333;
 }
 
 .wrapper .Instagram:hover span,
@@ -705,23 +705,21 @@ h3.my-profession {
 	height: 60px;
 	width: 60px;
 	border-radius: 50%;
-	display: block;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	margin: 0 auto 30px;
 	text-align: center;
 	transition: all 0.3s ease;
 }
 
-.services .services-item .services-item-inner .icon .fas {
-	font-size: 40px;
-	line-height: 60px;
-	color: var(--skin-color);
-	transition: all 0.3s ease;
-}
-
+/* All icon types */
+.services .services-item .services-item-inner .icon .fas,
+.services .services-item .services-item-inner .icon .fa-solid,
 .services .services-item .services-item-inner .icon .fa-brands,
 .services .services-item .services-item-inner .icon .fab {
 	font-size: 40px;
-	line-height: 60px;
+	line-height: 1;
 	color: var(--skin-color);
 	transition: all 0.3s ease;
 }
@@ -730,11 +728,9 @@ h3.my-profession {
 	background: var(--skin-color);
 }
 
-.services .services-item .services-item-inner:hover .icon .fas {
-	font-size: 25px;
-	color: #ffffff;
-}
-
+/* Hover effect for all icon types */
+.services .services-item .services-item-inner:hover .icon .fas,
+.services .services-item .services-item-inner:hover .icon .fa-solid,
 .services .services-item .services-item-inner:hover .icon .fa-brands,
 .services .services-item .services-item-inner:hover .icon .fab {
 	font-size: 25px;
@@ -766,8 +762,8 @@ h3.my-profession {
 }
 
 .portfolio .portfolio-item {
-	flex: 0 0 33.33%;
-	max-width: 33.33%;
+	flex: 0 0 50%;
+	max-width: 50%;
 	margin-bottom: 30px;
 }
 

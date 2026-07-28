@@ -166,13 +166,14 @@ spanEcom.onclick = function () {
 var typed = new Typed('.typing', {
   strings: [
     '',
+    'FullStack Software Developer',
     'Software Engineer',
     'Frontend Developer',
     'Backend Developer',
     'Web Developer',
     'Python Developer',
-    'Software Developer',
-    'React Developer'
+    'React Developer',
+    'Technical Writer',
   ],
   typeSpeed: 100,
   BackSpeed: 60,
@@ -182,13 +183,14 @@ var typed = new Typed('.typing', {
 var typed = new Typed('.typing2', {
   strings: [
     '',
+    'FullStack Software Developer',
     'Software Engineer',
     'Frontend Developer',
     'Backend Developer',
     'Web Developer',
     'Python Developer',
-    'Software Developer',
-    'React Developer'
+    'React Developer',
+    'Technical Writer',
   ],
   typeSpeed: 100,
   BackSpeed: 60,
